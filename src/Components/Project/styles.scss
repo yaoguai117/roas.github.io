@@ -1,0 +1,279 @@
+.need-a-project {
+  height: 950px;
+  background-image: url("Rectangle 94.png");
+  overflow: hidden;
+  position: relative;
+
+  &-right-back {
+    position: absolute;
+    right: 0;
+    width: 57.2972973vw;
+    min-height: 100%;
+  }
+
+  &-wave-line {
+    position: absolute;
+    right: 55.9459459vw;
+    width: 5.4594595vw;
+    min-height: 100%;
+  }
+
+  &-content {
+    position: absolute;
+    top: 3vw;
+    left: 62.4324324vw;
+    width: 28vw;
+    text-align: left;
+    .logo {
+      width: 11.4054054vw;
+      margin-bottom: 5vw;
+    }
+    .cross {
+      position: absolute;
+      right: 0;
+      top: 0.5945946vw;
+      cursor: pointer;
+    }
+
+    &-title {
+      display: block;
+      font-style: normal;
+      font-weight: 800;
+      font-size: 50px;
+      line-height: 66px;
+      color: transparent;
+      text-transform: uppercase;
+      -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: black;
+    }
+
+    &-subtitle {
+      display: block;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 32px;
+      line-height: 38px;
+      text-transform: uppercase;
+      color: #FCFFFD;
+    }
+
+    .project-form {
+      margin-top: 3vw;
+      .form-input {
+        padding-left: 15px;
+        height: 80px;
+        position: relative;
+        margin-bottom: 15px;
+        .label {
+          padding-top: 10px;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 15px;
+          display: flex;
+          align-items: center;
+          color: #FCFFFD;
+          opacity: 0.5;
+        }
+        input {
+          padding-top: 15px;
+          border: 0;
+          background: transparent;
+          border-bottom: #7EA897 1px solid;
+          width: 100%;
+          font-size: 20px;
+          color: #FFFFFF;
+        }
+        input:focus {
+          border-bottom: #006D38 1px solid;
+        }
+        input::placeholder {
+          color: #FFFFFF;
+          opacity: 0.2;
+        }
+        input:focus-visible {
+          outline: unset;
+        }
+        .error-icon {
+          display: none;
+          position: absolute;
+          top: 25px;
+          right: 33px;
+
+        }
+        .success-icon {
+          display: none;
+          position: absolute;
+          top: 25px;
+          right: 33px;
+        }
+      }
+
+      .input-error {
+        border: 3px solid #C71A1A;
+        background: #FEBCB6;
+        .error-icon {
+          display: unset;
+        }
+        .label {
+          opacity: 1;
+          color: #000;
+        }
+        input {
+          color: #C71A1A;
+          border: 0!important;
+        }
+      }
+      .input-success {
+        .success-icon {
+          display: unset;
+        }
+        background: #10D048;
+        .label {
+          opacity: 1;
+          color: #FFFFFF;
+        }
+        input {
+          color: #006D38;
+          border: 0!important;
+        }
+      }
+
+      .form-large-input {
+        height: 120px;
+        input {
+          padding-top: 40px;
+        }
+      }
+    }
+    .confirm-button {
+      width: 198px;
+      position: absolute;
+      right: 0px;
+    }
+
+
+    .need-a-project-sent {
+      margin-top: 50px;
+      text-align: center;
+      position: relative;
+      &-icon {
+        display: block;
+        margin: auto;
+      }
+      &-text1 {
+        top: 0px;
+        left: 0;
+        width: 28vw;
+        display: block;
+        position: absolute;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 96px;
+        line-height: 113px;
+        text-transform: uppercase;
+        opacity: 0.25;
+        color: transparent;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: black;
+        z-index: 2;
+      }
+      @media screen and (max-width: 1550px) {
+        &-text1 {
+          font-size: 90px;
+        }
+      }
+      @media screen and (max-width: 1450px) {
+        &-text1 {
+          font-size: 84px;
+        }
+      }
+      @media screen and (max-width: 1350px) {
+        &-text1 {
+          font-size: 78px;
+        }
+      }
+      @media screen and (max-width: 1250px) {
+        &-text1 {
+          font-size: 72px;
+        }
+      }
+      @media screen and (max-width: 1150px) {
+        &-text1 {
+          font-size: 66px;
+        }
+      }
+      @media screen and (max-width: 1050px) {
+        &-text1 {
+          font-size: 60px;
+        }
+      }
+      @media screen and (max-width: 950px) {
+        &-text1 {
+          font-size: 54px;
+        }
+      }
+      &-text2 {
+        width: 28vw;
+        left: 0;
+        top: 0;
+        position: absolute;
+        overflow:hidden;
+        z-index: 3;
+        margin-top: 30px;
+        display: block;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 47px;
+        color: #FCFFFD;
+      }
+      &-text3 {
+        position: absolute;
+        top: 125px;
+        display: block;
+        width: 28vw;
+        color: #FFFFFF;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1670px) {
+  .need-a-project-content-title {
+    font-size: 46px;
+  }
+}
+
+@media screen and (max-width: 1535px) {
+  .need-a-project-content-title {
+    font-size: 42px;
+  }
+}
+
+@media screen and (max-width: 1405px) {
+  .need-a-project-content-title {
+    font-size: 36px;
+  }
+  .need-a-project-content-subtitle {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 1205px) {
+  .need-a-project-content-title {
+    font-size: 32px;
+  }
+  .need-a-project-content-subtitle {
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 1070px) {
+  .need-a-project-content-title {
+    font-size: 28px;
+  }
+  .need-a-project-content-subtitle {
+    font-size: 22px;
+  }
+}

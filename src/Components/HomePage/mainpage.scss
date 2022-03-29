@@ -1,0 +1,236 @@
+.main-button {
+  background: #10D048!important;
+  border-radius: 28px!important;
+  color: #000!important;
+  border: 0!important;
+  box-shadow: unset!important;
+  height: 56px;
+}
+
+.main-page {
+  height: 56.4864865vw;
+  min-height: 800px;
+  background-color: #000;
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  overflow: hidden;
+  &-video-player {
+      height: 50.21621vw;
+      width: 70.432vw;
+      position: relative;
+      right: -100px;
+      top: -175px;
+      z-index: 1;
+      float: right;
+  }
+  &-main-title {
+    position: absolute;
+    left: 17.0270vw;
+    top: 10.270vw;
+    width: 24.0540541vw;
+  }
+  &-cursor-circle {
+    position: absolute;
+    left: 40vw;
+    top: 25.297vw;
+    width: 9.2972973vw;
+  }
+  &-arrow-down {
+    position: absolute;
+    left: 56.70270vw;
+    top: 35.675675vw;
+    z-index: 2;
+    //width: 10.8108108vw;
+  }
+
+  &-icons {
+    position: absolute;
+    left: 7.08108vw;
+    top: 30vw;
+    cursor: pointer;
+    width: 50px;
+  }
+  &-linkedin {
+    position: absolute;
+    top: 50px;
+  }
+  &-pinterest {
+    position: absolute;
+    top: 100px;
+  }
+  &-instagram {
+    position: absolute;
+    top: 150px;
+  }
+  &-vimeo {
+    position: absolute;
+    top: 200px;
+  }
+  &-button {
+    position: absolute;
+    left: 17.0270vw;
+    top: 25.2972973vw;
+    cursor: pointer;
+    width: 200px;
+    height: 56px;
+    background: #10D048!important;
+    border-radius: 28px!important;
+    color: #000!important;
+    img {
+      vertical-align: text-top;
+      padding-left: 10px;
+    }
+    border: 0!important;
+    box-shadow: unset!important;
+  }
+  &-text {
+    position: absolute;
+    left: 17.0270vw;
+    top: 20.8648vw;
+    width: 25.0810vw;
+    color: #FFFFFF;
+    text-align: left;
+    font-size: smaller;
+  }
+  &-footer {
+    position: absolute;
+    left: 19.9459vw;
+    top: 47.5135135vw;
+    color: #FFFFFF;
+    font-family: Work Sans;
+    font-weight: 500;
+    font-size: 20px;
+    &-button {
+      width: 150px;
+    }
+    input {
+      margin-left: 60px;
+      margin-right: 60px;
+      background-color: #000;
+      border: 0;
+      box-shadow: unset;
+      border-bottom: #C4C4C4 1px solid;
+      color: #FFFFFF;
+      width: 12.972973vw;
+    }
+    input:focus {
+      border: 0;
+      box-shadow: unset;
+      border-bottom: #C4C4C4 1px solid;
+    }
+    input:focus-visible {
+      border: 0!important;
+      box-shadow: unset!important;
+      outline: unset!important;
+      border-bottom: #C4C4C4 1px solid!important;
+    }
+    img {
+      cursor: pointer;
+    }
+  }
+}
+
+.main-page-cut {
+  z-index: 10;
+  position: relative;
+  height: 0;
+}
+.main-cut {
+    position: absolute;
+    top: -65px;
+    left: 0;
+    z-index: 10;
+}
+
+.main-cut-2 {
+  position: absolute;
+  //bottom: -1583px;
+  left: 0;
+  z-index: 9;
+}
+
+@media screen and (max-width: 1570px) {
+   .main-page {
+     &-arrow-down {
+        left: 57vw;
+        top: 32vw;
+      }
+   }
+}
+
+@media screen and (max-width: 1370px) {
+   .main-page {
+     &-arrow-down {
+        left: 57vw;
+        top: 30vw;
+      }
+     &-footer {
+       span {
+         font-size: 18px;
+       }
+     }
+   }
+}
+
+@media screen and (max-width: 1220px) {
+   .main-page {
+     &-arrow-down {
+        top: 28vw;
+        width: 15vw;
+        left: 59vw;
+      }
+     &-footer {
+       span {
+         font-size: 17px;
+       }
+     }
+   }
+}
+
+@media screen and (max-width: 1100px) {
+   .main-page {
+     &-arrow-down {
+        top: 26vw;
+      }
+     &-footer {
+       span {
+         font-size: 15px;
+       }
+     }
+   }
+}
+
+@media screen and (max-width: 1000px) {
+   .main-page {
+     &-arrow-down {
+        top: 24vw;
+      }
+     &-footer {
+       span {
+         font-size: 14px;
+       }
+     }
+   }
+}
+
+@media screen and (max-width: 1150px) {
+   .main-page {
+      &-main-title {
+        left: 13.5vw;
+        top: 7vw;
+      }
+      &-text {
+         left: 13.5vw;
+         top: 20vw;
+      }
+     &-button {
+       left: 13.5vw;
+       top: 27vw;
+     }
+     &-icons {
+       left: 3vw;
+       top: 33vw;
+     }
+   }
+}

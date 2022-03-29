@@ -1,0 +1,155 @@
+.page-2 {
+  height: 1583px;
+  z-index: 10;
+  position: relative;
+
+  &-mockup {
+    position: absolute;
+    left: 67.568vw;
+    top: 236px;
+    width: 19.243vw;
+  }
+
+  &-01 {
+    position: absolute;
+    left: 16.811vw;
+    top: 187px;
+    border-right: #10D048 3px solid;
+    height: 138px;
+    width: 10.5945946vw;
+  }
+
+  &-title-text {
+    position: absolute;
+    left: 28.54vw;
+    top: 187px;
+    width: 26.216vw;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.378vw;
+    line-height: 52px;
+    text-transform: uppercase;
+    text-align: left;
+  }
+
+  &-red-line {
+    position: absolute;
+    left: 25.568vw;
+    top: 418px;
+    width: 35.351vw;
+  }
+
+  &-text {
+    width: 23.784vw;
+    position: absolute;
+    left: 25.568vw;
+    top: 502px;
+    text-align: left;
+    font-size: smaller;
+  }
+
+  &-button {
+    position: absolute;
+    left: 25.568vw;
+    top: 566px;
+    cursor: pointer;
+  }
+
+  &-icon1 {
+    position: absolute;
+    left: 25.568vw;
+    top: 680px;
+    width: 8.27vw;
+    img {
+      width: 8.27vw;
+    }
+  }
+
+  &-icon2 {
+    position: absolute;
+    left: 37.892vw;
+    top: 680px;
+    width: 8.27vw;
+    img {
+      width: 8.27vw;
+    }
+  }
+
+  &-icon3 {
+    position: absolute;
+    left: 50.216vw;
+    top: 680px;
+    width: 8.27vw;
+    img {
+      width: 8.27vw;
+    }
+  }
+
+  &-icon-text {
+    //top: 843px!important;
+    //top: 45.458vw!important;
+    width: 8.270vw;
+  }
+
+  &-logos {
+    position: absolute;
+    left: 17.027vw;
+    top: 1100px;
+    width: 69.73vw;
+  }
+}
+
+.main-cut-page-2 {
+  position: absolute;
+  left: 0;
+  top: -65px;
+  //top: 2740px;
+  z-index: 10;
+}
+
+@media screen and (max-width: 1062px) {
+  .page-2-button {
+    top: 596px;
+  }
+}
+
+
+@media screen and (max-width: 1570px) {
+   .page-2 {
+     &-01 {
+        height: 125px;
+     }
+     &-title-text {
+       font-size: 30px;
+       top: 187px;
+       line-height: 43px;
+      }
+   }
+}
+
+@media screen and (max-width: 1275px) {
+   .page-2 {
+     &-01 {
+        height: 110px;
+     }
+     &-title-text {
+        font-size: 26px;
+       top: 177px;
+       line-height: 43px;
+      }
+   }
+}
+
+@media screen and (max-width: 1110px) {
+   .page-2 {
+     &-01 {
+        height: 100px;
+     }
+     &-title-text {
+        font-size: 22px;
+       top: 177px;
+          line-height: 40px;
+      }
+   }
+}

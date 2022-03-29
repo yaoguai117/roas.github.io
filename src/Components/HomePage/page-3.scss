@@ -1,0 +1,248 @@
+.page-3 {
+  height: 440px;
+  background-color: #000000;
+  position: relative;
+  z-index: 5;
+  &-text02 {
+    position: absolute;
+    left: 16.8108108vw;
+    top: 180px;
+    border-right: #10D048 3px solid;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    width: 12.6486486vw;
+    height: 150px;
+  }
+  &-title {
+    position: absolute;
+    color: #FFFFFF;
+    width: 1045px;
+    left: 31.4054054vw;
+    top: 187px;
+    text-align: left;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 52px;
+    text-transform: uppercase;
+  }
+  &-title-2 {
+    top: 239px;
+  }
+  &-text {
+    position: absolute;
+    color: #FFFFFF;
+    width: 1045px;
+    left: 31.4054054vw;
+    top: 307px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    text-transform: uppercase;
+    text-align: left;
+  }
+
+  &-green-line {
+    position: absolute;
+    left: 0;
+    top: 437px;
+    z-index: 5;
+  }
+}
+
+.page-3-2 {
+  height: 55.6756757vw;
+  position: relative;
+  background: linear-gradient(180deg, #152884 0%, #001369 100%);
+  z-index: 4;
+
+  &-mockup-31 {
+    position: absolute;
+    left: 21.3513514vw;
+    top: 124px;
+    width: 31.9459459vw;
+  }
+
+  &-green-line {
+    position: absolute;
+    left: 0;
+    top: 1030px;
+    z-index: 5;
+  }
+
+  &-visa {
+    position: absolute;
+    left: 53.3513514vw;
+    top: 16.972973vw;
+    width: 9.1891vw;
+  }
+
+  &-cross {
+    position: absolute;
+    left: 64.5405405vw;
+    top: 17.5675676vw;
+    width: 1.6216216vw;
+  }
+
+  &-circles {
+    position: absolute;
+    left: 68.3243243vw;
+    top: 16.4324324vw;
+    width: 8.7567568vw;
+  }
+
+  &-ex1-visa {
+    position: absolute;
+    left: 53.3513514vw;
+    top: 39.3513514vw;
+    cursor: pointer;
+    width: 12.7027027vw;
+  }
+
+  &-ex2-visa {
+    position: absolute;
+    left: 66.9189189vw;
+    top: 39.3513514vw;
+    cursor: pointer;
+    width: 12.7027027vw;
+  }
+
+  &-title {
+    position: absolute;
+    left: 53.3513514vw;
+    top: 22.8648649vw;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FCFFFD;
+  }
+
+  &-text1 {
+    position: absolute;
+    left: 53.3513514vw;
+    top: 26.2702703vw;
+    width: 440px;
+    text-align: left;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FCFFFD;
+    opacity: 0.75;
+  }
+
+  &-text2 {
+    position: absolute;
+    left: 53.3513514vw;
+    top: 37.0810811vw;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+    color: #FCFFFD;
+  }
+}
+
+@media screen and (max-width: 1570px) {
+   .page-3-2 {
+     &-title {
+      font-size: 37px;
+    }
+     &-text1 {
+      top: 28vw;
+    }
+     &-text2 {
+       top: 41vw;
+     }
+     &-ex1-visa {
+       top: 44vw;
+     }
+     &-ex2-visa {
+       top: 44vw;
+     }
+   }
+}
+
+@media screen and (max-width: 1200px) {
+   .page-3-2 {
+     &-title {
+      font-size: 34px;
+    }
+     &-text1 {
+      top: 29vw;
+    }
+     &-text2 {
+       top: 43vw;
+     }
+     &-ex1-visa {
+       top: 46vw;
+     }
+     &-ex2-visa {
+       top: 46vw;
+     }
+   }
+}
+
+@media screen and (max-width: 1570px) {
+   .page-3 {
+     &-text02 {
+        height: 130px;
+     }
+     &-title {
+        font-size: 36px;
+         top: 177px;
+      }
+      &-title-2 {
+        top: 229px;
+      }
+      &-text {
+        font-size: 14.5px;
+        top: 292px;
+      }
+   }
+}
+
+@media screen and (max-width: 1275px) {
+   .page-3 {
+     &-text02 {
+        height: 120px;
+     }
+     &-title {
+        font-size: 31px;
+         top: 173px;
+      }
+      &-title-2 {
+        top: 221px;
+      }
+      &-text {
+        font-size: 11.5px;
+        top: 282px;
+      }
+   }
+}
+
+@media screen and (max-width: 1110px) {
+   .page-3 {
+     &-text02 {
+        height: 110px;
+     }
+     &-title {
+        font-size: 27px;
+         top: 168px;
+      }
+      &-title-2 {
+        top: 214px;
+      }
+      &-text {
+        font-size: 10.5px;
+        top: 270px;
+      }
+   }
+}

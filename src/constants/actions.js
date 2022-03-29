@@ -1,0 +1,14 @@
+export const get_groups_request = 'GET_GROUPS_REQUEST';
+export const get_groups_success = 'GET_GROUPS_SUCCESS';
+
+export const GET_STUDENTS_REQUEST = 'GET_STUDENTS_REQUEST';
+export const GET_STUDENTS_SUCCESS = 'GET_STUDENTS_SUCCESS';
+
+export const GET_COLLECTION_REQUEST = 'GET_COLLECTION_REQUEST';
+export const GET_COLLECTION_SUCCESS = 'GET_COLLECTION_SUCCESS';
+
+export const authorize_request = 'AUTHORIZE_REQUEST';
+export const authorize_success = 'AUTHORIZE__SUCCESS';
+
+export const GET_DEEP_COLLECTION_REQUEST = 'GET_DEEP_COLLECTION_REQUEST';
+export const GET_DEEP_COLLECTION_SUCCESS = 'GET_DEEP_COLLECTION_SUCCESS';
